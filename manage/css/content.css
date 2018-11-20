@@ -1,0 +1,86 @@
+
+.box div {
+    padding-top: 20px;
+    padding-left: 100px;
+    width: 85%;
+    display: none;
+    height:450px;
+    line-height: 50px;
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #EEE;
+}
+.box div.select {
+    display: inline-block;
+
+}
+.select label{
+    padding-right: 50px;
+}
+.btn-su{
+    background: #16a0d3;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 1px 0 0;
+    padding: 0 20px;
+}
+.btn-re{
+    background: #FF9C30;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 1px 0 0;
+    padding: 0 20px;
+}
+select{
+    width: 100px;
+    /* background-color: #FFFFFF; */
+    border: 1px solid #c2c2c2;
+    padding: 3px;
+    min-width: 35px;
+    line-height: 35px;
+    height: 35px;
+
+    text-decoration: none;
+    background: #fff;
+    white-space: nowrap;
+    word-break: break-all;
+}
+.item{
+    width: 180px;
+    border: 1px solid #c2c2c2;
+    min-width: 35px;
+    line-height: 30px;
+
+    text-decoration: none;
+    background: #fff;
+    white-space: nowrap;
+    word-break: break-all;
+}
+.upload{
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    border: 1px solid #999;
+    text-decoration: none;
+    color: #666;
+}
+.change{
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}

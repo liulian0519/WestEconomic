@@ -1,0 +1,50 @@
+.btn-list ul{
+    float: left;
+}
+.btn-list li{
+    display: inline-block;
+    padding: 5px;
+
+
+}
+.ba{
+    border-left: 1px solid #c2c2c2;
+}
+.new:hover{
+    color: blue;
+    cursor: pointer;
+}
+.ba:hover{
+    color: blue;
+    cursor: pointer;
+}
+.uncheck:hover{
+    color: blue;
+    cursor: pointer;
+}
+.check:hover{
+    color: blue;
+    cursor: pointer;
+}
+.delete:hover{
+    color: blue;
+    cursor: pointer;
+}
+.uncheck{
+    border-left: 1px solid #c2c2c2;
+}
+.check{
+    border-left: 1px solid #c2c2c2;
+}
+.delete{
+    border-left: 1px solid #c2c2c2;
+}
+
+.btn-list{
+    width: 23%;
+    border: 1px solid #c2c2c2;
+    height: 32px;
+    margin: 20px 20px;
+    padding: 0 5px;
+    background: #F0F0F0;
+}

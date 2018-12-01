@@ -1,7 +1,7 @@
-.btn-list ul{
+.btn-list-wrap ul{
     float: left;
 }
-.btn-list li{
+.btn-list-wrap li{
     display: inline-block;
     padding: 5px;
 
@@ -40,7 +40,7 @@
     border-left: 1px solid #c2c2c2;
 }
 
-.btn-list{
+.btn-list-wrap{
     width: 23%;
     border: 1px solid #c2c2c2;
     height: 32px;

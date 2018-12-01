@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>内容管理</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/content.css">
@@ -18,7 +20,7 @@
         <span class="span2"></span>
     </div>
 </div>
-<div class="container">
+<div class="container-wrap">
     <div class="container-l">
         <div class="l-top">
             <p>站点管理</p>
@@ -35,16 +37,6 @@
         </div>
     </div>
     <div class="container-r">
-        <div class="btn-list">
-            <ul>
-                <li class="new" onclick="window.location.href='content.html'"><span class="icon-plus"></span><a>新增</a></li>
-                <li class="ba"><span class="icon-ba"></span><a>保存</a></li>
-                <li class="check"><span class="icon-check"></span><a>全选</a></li>
-                <li class="uncheck" style="display: none;"><span class="icon-uncheck"></span><a>取消全选</a></li>
-                <li class="delete"><span class="icon-delete"></span><a>删除</a></li>
-                <!--<li><span class="icon-plus"></span></li>-->
-            </ul>
-        </div>
         <div class="r-middle">
             <div class="box" id="tabFir">
                 <ul>
@@ -82,7 +74,7 @@
                         <br>
 
                         <label>发布时间</label>
-                        <input class="item" type="datetime-local">
+                        <input type="text" class="item" id="datetimepicker" >
                         <br>
                     </form>
 
@@ -97,7 +89,7 @@
     </div>
 </div>
 <!--页脚部分-->
-<div class="footer">
+<div class="footer-wrap">
     <div class="leftFooter">
         <img class="footerLogo" src="img/footerLogo.jpg">
     </div>
@@ -108,6 +100,9 @@
     </div>
 </div>
 <script type="text/javascript" src="js/jQuery/jQuery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="bootstrap-datetimepicker-master/js/locales/bootstrap-datetimepicker.fr.js"></script>
 <script type="text/javascript" src="js/index.js" ></script>
 
 </body>

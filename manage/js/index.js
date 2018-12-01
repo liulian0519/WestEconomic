@@ -35,3 +35,6 @@ for (var i = 0; i < oLis.length; i++) {
         }
     }) (i);
 }
+$('#datetimepicker').datetimepicker({
+    format: 'yyyy-mm-dd hh:ii'
+});

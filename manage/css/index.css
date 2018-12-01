@@ -117,7 +117,7 @@ a {
     margin-top: 7px;
     cursor: pointer;
 }
-.container {
+.container-wrap {
     width: 100%;
     height: 900px;
 
@@ -187,6 +187,7 @@ a {
     background-color: #fff;
     float: right;
     position: relative;
+
 }
 .r-top {
     width: 100%;
@@ -247,7 +248,7 @@ a {
 
 }
 /*页脚部分*/
-.footer {
+.footer-wrap {
     position: absolute;
     width: 100%;
     height: 60px;

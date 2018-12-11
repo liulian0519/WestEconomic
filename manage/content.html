@@ -55,32 +55,40 @@
                         <br>
 
                         <label>内容标题</label>
-                        <input type="text" class="item">
+                        <input id="title_name" type="text" class="item" onblur="Empty()">
+                        <span id="title_img"></span>
+                        <p class="tip" id="title_tip"></p>
                         <br>
 
                         <label>Tags标签</label>
-                        <input type="text" class="item">
+                        <input type="text" id="tag_name" class="item" onblur="EmptyTag()">
+                        <span id="tag_img"></span>
+                        <p class="tip" id="tag_tip"></p>
                         <br>
 
                         <label>推荐类型</label>
-                        <input type="text" class="item">
+                        <input type="text" id="type_name" class="item" onblur="EmptyType()">
+                        <span id="type_img"></span>
+                        <p class="tip" id="type_tip"></p>
                         <br>
 
                         <label>封面图片</label>
                         <a href="javascript:;" class="upload">选择文件
-                            <input class="change" type="file">
+                            <input class="change" id="fileName" type="file">
                         </a>
 
                         <br>
 
                         <label>发布时间</label>
-                        <input type="text" class="item" id="datetimepicker" >
+                        <input type="text" class="item" id="datetimepicker" onmouseleave="EmptyDate()" >
+                        <span id="date_img"></span>
+                        <p class="tip" id="date_tip"></p>
                         <br>
                     </form>
 
                 </div>
 
-                <button class="btn-su">提交保存</button>
+                <button class="btn-su" onclick="faut()">提交保存</button>
                 <button class="btn-re">返回上一页</button>
                 <div>内容二</div>
             </div>
@@ -103,6 +111,7 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js"></script>
 <script type="text/javascript" src="bootstrap-datetimepicker-master/js/locales/bootstrap-datetimepicker.fr.js"></script>
+<script type="text/javascript" src="js/content.js"></script>
 <script type="text/javascript" src="js/index.js" ></script>
 
 </body>

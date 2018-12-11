@@ -92,3 +92,8 @@ select{
     top: 0;
     opacity: 0;
 }
+.tip{
+    padding-left: 10px;
+    display: inline;
+    color: #666;
+}
